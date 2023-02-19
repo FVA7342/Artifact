@@ -6,7 +6,7 @@ env:
      Main:
      runs-on: ubuntu-latest
      steps:
-      ~name: check out the code
+     ~name: check out the code
       uses:   actions/checkout@v2
       ~name: Upload the artifact
       uses:   actions/upload-artifacts@v2
