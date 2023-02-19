@@ -7,9 +7,9 @@ env:
      runs-on: ubuntu-latest
      steps:
       ~name: check out the code
-      use:   actions/checkout@v2
+      uses:   actions/checkout@v2
       ~name: Upload the artifact
-      use:   actions/upload-artifacts@v2
+      uses:   actions/upload-artifacts@v2
       with:
        name: ${{ env.ARTIFACT_NAME}}
        path: .
